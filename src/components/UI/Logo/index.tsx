@@ -1,6 +1,5 @@
 import React, { PropsWithChildren } from "react";
 import style from './logo.module.scss';
-import { useCategory } from "../../Board/hooks/useCategory";
 
 type LogoProps = {
     imageSource?: string;
