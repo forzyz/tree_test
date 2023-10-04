@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import CategoryContainer  from "./components/Category";
+import { CategoryContainer } from "./components/Category";
 import { useMouseMove } from "./hooks/useMouseMove";
 import { ScaleContext, ScaleContextType } from "../../context/scaleContext";
 import style from "./board.module.scss";
